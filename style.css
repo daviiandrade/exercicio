@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.artists {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filmes {
+    background-color: rgb(0, 255, 4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.games {
+    background-color: rgb(255, 0, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
